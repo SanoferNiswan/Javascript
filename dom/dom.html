@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM example</title>
+    <style>
+        #inp{
+            background-color: blue;
+            font-size: 25px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- id -->
+    <div id="sample">Hello world</div>
+
+    <!-- name -->
+    <div>
+        <input type="radio" name="ip" value="123">
+        <input type="radio" name="ip" value="abc">
+    </div>
+
+    <!-- tag and class  -->
+    <h2 class="c">outer greet</h2>
+    <div id="container">
+        <h2 class="c">hi</h2>
+        <h2 class="c">hello</h2>
+        <h2 class="c">namaste</h2>
+    </div>
+
+    <div class="p">
+        <p class="child">Accessing parent</p>
+    </div>
+
+    <div class="parent">
+         <h2>child1</h2>
+         <h1 class="child2">child2</h1>
+         <h3>child3</h3>
+         <h4>child4</h4>
+    </div>
+
+    <ul id="menu">
+        <li>Home</li>
+        <li>about</li>
+        <li>blog</li>
+        <li style="display: none;">project</li>
+    </ul>
+
+    <!-- beforebegin -->
+    <div id="par">
+        <!-- afterbegin -->
+        Parent <!-- this is also one of the child -->
+        <!-- beforeend -->
+    </div>
+    <!-- afterend -->
+
+
+    <!-- // Lesson 4 :  Attribute methods -->
+     <br>
+    <input type="text" id="username" placeholder="username">
+    <!-- id,placeholder .. are attributes-->
+
+    <!-- // Lesson 5 : Manipulating Element's Styles -->
+     <input type="text" id="style" placeholder="styling" style="background-color: red; font-size: 20px;">
+
+     <input type="text" id="inp" placeholder="styling2">
+
+     <h1 id="title" class="main message">sANO</h1>
+
+     <!-- Lesson 6 : JS events -->
+     <!-- <button type="button" id="btn" onclick="display(event)">click here</button> -->
+     <button type="button" id="btn">click here</button>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>

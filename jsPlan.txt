@@ -1,0 +1,138 @@
+Day 1: Basics of JavaScript
+1. Introduction to JavaScript (1 hour)
+What is JavaScript?
+How JavaScript works in the browser
+JavaScript Syntax
+2. Data Types and Variables (2 hours)
+Primitive Types
+Variables: var, let, const
+Type conversion
+3. Operators (1.5 hours)
+Arithmetic, Comparison, Logical, Assignment Operators
+Ternary Operator
+4. Control Structures (2 hours)
+if, else, switch
+Loops: for, while, do...while
+5. Functions (2.5 hours)
+Function Declaration and Expression
+Arrow Functions
+Parameters, Return Values, Hoisting
+IIFE  
+
+
+Day 2: DOM Manipulation and Events
+1. DOM Introduction (2 hours)
+Accessing elements: getElementById, querySelector, etc.
+Changing DOM content
+Manipulating styles
+Creating and removing elements
+2. Events (3 hours)
+Event Handling: addEventListener()
+Event Types
+Event Bubbling and Capturing
+Prevent Default
+3. Forms and Validations (2 hours)
+Accessing form elements
+Basic form validation with JS
+
+
+Day 3: Advanced Functions and OOP
+1. Closures (1.5 hours)
+What are Closures?
+Use cases for closures
+2. Callbacks (1 hour)
+What are Callbacks?
+3. Recursion (1.5 hours)
+Recursive functions
+4. Objects (2 hours)
+Creating Objects
+Accessing properties and methods
+5. Prototypes and Inheritance (2 hours)
+Prototypes and the prototype chain
+6. Classes (ES6+) (2 hours)
+Class Syntax, Inheritance, Getters and Setters
+
+
+Day 4: Asynchronous JavaScript
+1. Callbacks (Advanced) (1 hour)
+Callback Hell
+2. Promises (2 hours)
+What are Promises?
+then(), catch(), finally()
+3. Async/Await (2 hours)
+Writing asynchronous code using async/await
+Error handling
+4. Fetch API & AJAX (3 hours)
+Fetch API
+Handling responses: .json(), .text()
+
+
+Day 5: Error Handling and ES6+ Features
+1. Error Handling (1.5 hours)
+try...catch...finally
+Custom errors
+2. ES6+ Features (5 hours)
+Arrow Functions
+Template Literals
+Destructuring Assignment
+Spread and Rest Operators
+Modules (Import/Export)
+Default Parameters
+
+
+Day 6: Advanced JavaScript Concepts
+1. Higher-Order Functions (2 hours)
+Map, Filter, Reduce
+2. Closures (Advanced Use) (1.5 hours)
+Practical uses
+3. Currying (1.5 hours)
+Currying in JavaScript
+4. Function Composition (1 hour)
+Function chaining and composition
+5. Regular Expressions (2 hours)
+Basic syntax
+Use cases
+
+
+Day 7: Working with APIs & Memory Management
+1. RESTful APIs (2 hours)
+HTTP Methods: GET, POST, PUT, DELETE
+2. GraphQL (1.5 hours)
+Queries and Mutations
+3. Memory Management (3 hours)
+Garbage Collection
+Event Loop
+Web Workers
+
+
+Day 8: Browser APIs and Advanced DOM
+1. Web Storage APIs (2 hours)
+localStorage, sessionStorage, Cookies
+2. Service Workers and PWAs (3 hours)
+Introduction to PWAs
+Service Workers
+3. IndexedDB (2 hours)
+CRUD operations
+
+
+Day 9: Testing and Node.js
+1. Unit Testing (2 hours)
+Unit Testing with Jest or Mocha
+2. End-to-End Testing (1.5 hours)
+Tools like Cypress
+3. Node.js Introduction (4 hours)
+Server-side JavaScript
+Modules: fs, path, http
+NPM
+
+
+Day 10: Best Practices, Security, and JavaScript Patterns
+1. Coding Standards (2 hours)
+Linters (ESLint)
+Modular, reusable code
+2. Security (1.5 hours)
+XSS, CSRF prevention
+3. Design Patterns (2.5 hours)
+Singleton, Factory, Observer patterns
+4. Advanced Memory Management (2 hours)
+Preventing memory leaks

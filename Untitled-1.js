@@ -15,7 +15,10 @@ char.forEach((val, idx, char) => {
 char.forEach((ele) => {
     a[ele]=(a[ele]|0)+1;   
 });
-a
+// {
+//      x=10;
+// }
+// x
 
 let sum=0;
 let odd=[];
@@ -34,7 +37,7 @@ odd
 
 let x=[1,2,3,4,5,6,7,8]
 
-x.splice(0,3,9,8,7);
+x.splice(0,3,1,2,3,4,5);
 x
 x.reverse();
 x
@@ -63,3 +66,29 @@ pro
 
 product.sort((a,b)=> a.price-b.price)
 product
+
+function showPrimes(n) {
+
+    for (let i = 2; i < n; i++) {
+      if (!isPrime(i)) continue;
+  
+      console.log(i);  // a prime
+    }
+  }
+  
+  function isPrime(n) {
+    for (let i = 2; i < n; i++) {
+      if ( n % i == 0) return false;
+    }
+    return true;
+  }
+
+  showPrimes(12);
+
+
+
+  let sayHi = function() {
+    return ( "Hello" );
+  };
+
+  sayHi;

@@ -26,3 +26,14 @@ name.print();
 // Using call to borrow the print method
 // name2.print();
 name.print.call(name2);
+
+function display(){
+    console.log(`${this.name},${this.age},${this.area}`);
+}
+
+let user={
+    name:"sano",
+    age:21,
+    area:"mdkm"
+}
+display.call(user);

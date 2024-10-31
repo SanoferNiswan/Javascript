@@ -90,3 +90,62 @@ tim.start();
 // button.addEventListener("click", () => {
 //     console.log(this); // 'this' will refer to the lexical scope, not the button element
 // });
+
+
+
+// getters
+
+const p = {
+    firstName: 'John',
+    lastName: 'Doe',
+    
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+};
+
+console.log(p.fullName); // Output: John Doe
+
+
+// setters
+
+const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
+    },
+    
+    set fullName(name) {
+        const parts = name.split(' ');
+        this.firstName = parts[0];
+        this.lastName = parts[1];
+    }
+};
+
+person.fullName = 'Jane Smith'; // Calls the setter
+console.log(person.firstName); // Output: Jane
+console.log(person.lastName); // Output: Smith
+
+
+// with statement - syntax
+// with (object) {
+//     // Statements using properties of object
+// }
+
+
+const obj = {
+    a: 1,
+    b: 2,
+    c: 3
+};
+
+with (obj) { // Statements using properties of object
+    console.log(a + b + c); // Output: 6
+}
+
+/*Drawbacks: The with statement is often discouraged because it makes code harder to understand and can lead to performance issues. It can also cause confusion with variable scoping. */
+
+
+

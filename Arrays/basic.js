@@ -354,3 +354,6 @@ const a6 = [1, 2, 3];
 const results = a6.flatMap(x => [x, x * 2]);
 console.log(results); // Output: [1, 2, 2, 4, 3, 6]
 
+
+
+// practice : 2490. Circular Sentence

@@ -10,7 +10,7 @@ const double=multiply.bind(null,2);
 console.log(double(5));
 console.log(double(10));
 
-
+ 
 
 // 2 borrow methods
 

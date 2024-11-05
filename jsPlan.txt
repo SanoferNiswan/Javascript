@@ -136,3 +136,16 @@ XSS, CSRF prevention
 Singleton, Factory, Observer patterns
 4. Advanced Memory Management (2 hours)
 Preventing memory leaks
+
+
+
+
+
+
+1 Design patterns
+2 Solid Principles
+3 File Upload(Single and Multiple)
+4 Video Upload as Data stream
+5 Forms with validation, error handling and warning messages 
+6 Ajax and xmlhttpRequest
+7 Importing javascript and code Reusablility

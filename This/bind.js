@@ -29,7 +29,7 @@ const borrow=user1.print.bind(user2);
 borrow();
 
 
-// 2 settimeout
+// 3 settimeout
 
 /*Explanation : Using bind(this) ensures that when tick() is called by 
 setInterval,this still refers to the instance of Timer. 
@@ -78,3 +78,18 @@ tim.start();
 // if no bind or arrow function ---> only in settimeout() and settimeinterval()
 // strict mode---> this - undefined
 // non strict mode ---> this - global object
+
+
+// class Timer{
+//     constructor(){
+//         time=0;
+//     }
+
+//     tick(){
+//         console.log(this.time++);
+        
+//     }
+//     start(){
+//         setInterval(this.tick.bind(this),1000)
+//     }
+// }

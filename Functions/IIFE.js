@@ -18,7 +18,7 @@
 console.log(typeof counter); // undefined - No global `counter` variable exists
 
 
-
+ 
 (function() {
     let message = "Hello, IIFE!";
     console.log(message);

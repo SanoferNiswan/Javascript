@@ -15,7 +15,7 @@ const triple=a.map((x)=>x*3);
 const binary=a.map((x)=>x.toString(2)); // it returns binary num
 
 console.log('DOUBLE: '+double+" triple:"+triple+"binary: "+binary);
-
+ 
 
 // filter function
 

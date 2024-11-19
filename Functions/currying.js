@@ -70,7 +70,7 @@ console.log(calculateVAT(100)); // Outputs: 20
 
 const calculateSalesTax = curriedCalculateTax(0.1); // 10% Sales Tax
 console.log(calculateSalesTax(100)); // Outputs: 10
-
+ 
 
 
 
